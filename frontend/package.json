@@ -15,7 +15,7 @@
     "typestyle": "^2.0.1"
   },
   "devDependencies": {
-    "@types/enzyme": "^3.9.3",
+    "@types/enzyme": "^3.10.8",
     "@types/enzyme-adapter-react-16": "^1.0.5",
     "@types/express": "^4.16.0",
     "@types/jest": "^24.0.13",
