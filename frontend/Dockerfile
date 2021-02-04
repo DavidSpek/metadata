@@ -1,4 +1,4 @@
-FROM node:12.3.1 as build
+FROM node:15.8.0 as build
 
 ARG COMMIT_HASH
 ARG DATE
@@ -23,7 +23,7 @@ RUN mkdir -p ./server/dist && \
   cat dependency-licenses.txt >> server/dependency-licenses.txt && \
   npm prune --production
 
-FROM node:12.3.1-alpine
+FROM node:15.8.0
 
 COPY --from=build /frontend/server /server
 COPY --from=build /frontend/build /client
