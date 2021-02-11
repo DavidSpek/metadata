@@ -35,7 +35,7 @@
     "prettier": "1.19.1",
     "react-router-test-context": "^0.1.0",
     "snapshot-diff": "^0.7.0",
-    "typescript": "^3.4.5"
+    "typescript": "^4.1.5"
   },
   "scripts": {
     "build": "cross-env EXTEND_ESLINT=true react-scripts build",
