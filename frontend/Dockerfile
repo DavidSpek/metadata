@@ -23,7 +23,7 @@ RUN mkdir -p ./server/dist && \
   cat dependency-licenses.txt >> server/dependency-licenses.txt && \
   npm prune --production
 
-FROM node:12.3.1-alpine
+FROM node:16.1.0-alpine
 
 COPY --from=build /frontend/server /server
 COPY --from=build /frontend/build /client
