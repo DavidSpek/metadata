@@ -6,7 +6,7 @@ replace ml_metadata => ./third_party/ml_metadata
 
 require (
 	cloud.google.com/go v0.38.0 // indirect
-	github.com/bmatcuk/doublestar v1.1.1
+	github.com/bmatcuk/doublestar v1.3.4
 	github.com/gogo/protobuf v1.2.2-0.20190723190241-65acae22fc9d // indirect
 	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
 	github.com/golang/protobuf v1.3.1
