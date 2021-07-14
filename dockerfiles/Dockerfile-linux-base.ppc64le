@@ -1,6 +1,6 @@
 # This file builds the base image for metadata backend server on power.
 
-FROM golang:1.12
+FROM golang:1.16.6
 
 RUN apt-get update && apt-get -y install cmake unzip patch wget && apt-get clean
 
